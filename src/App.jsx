@@ -1,14 +1,14 @@
 import React from 'react'
 
 import { Routes, Route } from 'react-router-dom'
+import Homepage from './pages/Homepage'
 
 function App() {
   return (
     <div>
-   
-
     <Routes>
-        <Route path="/signup" element={<Signup />} />
+
+        <Route path="/" element={<Homepage/>} />
     </Routes>
     </div>
   )
