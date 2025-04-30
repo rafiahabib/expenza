@@ -1,14 +1,20 @@
 import React from 'react'
 
 import { Routes, Route } from 'react-router-dom'
-import Homepage from './pages/Homepage'
+import Navbar from './components/navbar'
 
 function App() {
   return (
-    <div>
+    <div className='w-full'>
+        <Navbar/>
     <Routes>
 
-        <Route path="/" element={<Homepage/>} />
+      
+        {/* <Route path='/' element={<DashBoard/>}/> */}
+        {/* <Route path='/home' element={<DashBoard/>}/> */}
+        {/* <Route path='/expense' element={</>}/> */}
+         {/* <Route path='/committee' element={</>}/> */}
+
     </Routes>
     </div>
   )
